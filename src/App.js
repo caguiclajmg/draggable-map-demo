@@ -133,7 +133,7 @@ function App() {
       </TransformWrapper>
       <h1>Selected country is: {selectedCountry?.name || "none"}</h1>
       <h2>
-        It's position is:{" "}
+        Its position is:{" "}
         {selectedCountry
           ? `${selectedCountry.position.x} ${selectedCountry.position.y}`
           : "unknown"}
